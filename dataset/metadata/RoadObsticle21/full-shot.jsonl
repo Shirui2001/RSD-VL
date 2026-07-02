@@ -1,0 +1,15 @@
+{"image_path": "images/28.webp", "label": 1.0, "mask_path": "labels_masks/28.png", "class_name": "unknown"}
+{"image_path": "images/15.webp", "label": 1.0, "mask_path": "labels_masks/15.png", "class_name": "unknown"}
+{"image_path": "images/24.webp", "label": 1.0, "mask_path": "labels_masks/24.png", "class_name": "unknown"}
+{"image_path": "images/3.webp", "label": 1.0, "mask_path": "labels_masks/3.png", "class_name": "unknown"}
+{"image_path": "images/5.webp", "label": 1.0, "mask_path": "labels_masks/5.png", "class_name": "unknown"}
+{"image_path": "images/27.webp", "label": 1.0, "mask_path": "labels_masks/27.png", "class_name": "unknown"}
+{"image_path": "images/13.webp", "label": 1.0, "mask_path": "labels_masks/13.png", "class_name": "unknown"}
+{"image_path": "images/26.webp", "label": 1.0, "mask_path": "labels_masks/26.png", "class_name": "unknown"}
+{"image_path": "images/20.webp", "label": 1.0, "mask_path": "labels_masks/20.png", "class_name": "unknown"}
+{"image_path": "images/2.webp", "label": 1.0, "mask_path": "labels_masks/2.png", "class_name": "unknown"}
+{"image_path": "images/8.webp", "label": 1.0, "mask_path": "labels_masks/8.png", "class_name": "unknown"}
+{"image_path": "images/22.webp", "label": 1.0, "mask_path": "labels_masks/22.png", "class_name": "unknown"}
+{"image_path": "images/18.webp", "label": 1.0, "mask_path": "labels_masks/18.png", "class_name": "unknown"}
+{"image_path": "images/14.webp", "label": 1.0, "mask_path": "labels_masks/14.png", "class_name": "unknown"}
+{"image_path": "images/6.webp", "label": 1.0, "mask_path": "labels_masks/6.png", "class_name": "unknown"}
