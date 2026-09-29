@@ -85,13 +85,24 @@ We use datasets for inlier training, outlier supervision, and anomaly evaluation
 Training:
 
 ```bash
-python train.py --shot $shot --save_path $save_path
+python road_train.py \
+    --road_root /path/to/road_data \
+    --clip_checkpoint /path/to/ViT-L-14-336px.pt \
+    --output outputs/B5_seed111 \
+    --variant B5 \
+    --seed 111 \
+    --feature_space pixel
 ```
 
 Evaluation:
 
 ```bash
-python test.py --save_path $save_path --dataset $dataset
+python road_test.py \
+    --dataset RoadAnomaly \
+    --dataset_root /path/to/RoadAnomaly \
+    --weights_dir outputs/B5_seed111 \
+    --clip_checkpoint /path/to/ViT-L-14-336px.pt \
+    --output outputs/eval_RoadAnomaly_seed111
 ```
 
 Optional script for training and evaluation:
