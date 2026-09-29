@@ -1,0 +1,18 @@
+# Install PyTorch + matching torchvision for your CUDA driver FIRST; see README.md.
+# The pinned CUDA libraries in original requirements.txt are platform-specific.
+# This file contains the non-PyTorch dependencies needed by the road implementation.
+ftfy>=6.2,<7
+kornia>=0.6.9,<0.8
+numpy>=1.24,<2
+pandas>=2,<3
+scikit-learn>=1.2,<2
+scipy>=1.10,<2
+opencv-python-headless>=4.8,<5
+Pillow>=9,<12
+timm>=0.6,<1
+einops>=0.7,<1
+tiktoken>=0.7,<1
+regex>=2023.0
+packaging>=23
+setuptools>=68
+tqdm>=4.65
